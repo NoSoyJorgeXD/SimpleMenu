@@ -1,6 +1,6 @@
 <?php 
 
-namespace GamesUI; 
+namespace SimpleUI; 
 
 use pocketmine\Player;
 use pocketmine\Server;
