@@ -50,17 +50,17 @@ class UI extends J implements L {
         }
       }
   });
-  $form->setTitle("§5Selecciona un juego");
-  $form->setContent("§fEstos son las modalidades disponibles pronto se añadiran mas");
-  $form->addButton("§4Factions\n§4Construye tu base!",0,"textures/items/diamond_sword");
-  $form->addButton("§6Mina\n§7Mina y vende para conseguir dinero",0,"textures/items/diamond_pickaxe");
-  $form->addButton("§4A§cr§4e§cn§4a§cP§4v§cP\n§4Mata a jugadores para conseguir dinero",0,"textures/items/ender_pearl");
-  $form->addButton("§cMinaPvP\n§cMina, vende y mata jugadores",0,"textures/items/diamond");
-  $form->addButton("§6Eventos\n§7Consigue items especiales!",0,"textures/items/bow");
+  $form->setTitle("§5Select a game mode");
+  $form->setContent("§fThese are the games available");
+  $form->addButton("§4Factions\n§cBuild your house",0,"textures/items/diamond_sword");
+  $form->addButton("§6Mine\n§7Mine and sell",0,"textures/items/diamond_pickaxe");
+  $form->addButton("§4A§cr§4e§cn§4a§cP§4v§cP\n§4Kill players for money",0,"textures/items/ender_pearl");
+  $form->addButton("§cMinaPvP\n§cMine and kill players",0,"textures/items/diamond");
+  $form->addButton("§6Events\n§7Special events!",0,"textures/items/bow");
   $form->sendToPlayer($player);
   
   public function onDisable() : void {
-    $this->getLogger()->info("UI DESACTIVADA");
+    $this->getLogger()->info("UI Disable");
 	}
   
   
