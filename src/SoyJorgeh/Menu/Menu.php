@@ -20,7 +20,7 @@ class UI extends J implements L {
   public function onCommand(CommandSender $player, Command $cmd, string $label, array $args) : bool {
     switch($cmd->getName()){
       case "formUI":
-        $player->sendMessage("§eHas abierto la ui de games");
+        $player->sendMessage("§eYou open de Menu");
         $this->myForm($player);
         break;
     }
