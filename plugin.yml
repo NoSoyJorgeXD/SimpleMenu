@@ -2,3 +2,7 @@ name: SimpleMenu
 author: SoyJorgeh
 main: SoyJorgeh\Menu\Menu
 version: 1.0.0
+
+commands:
+ menu:
+  description: "Open the menu"
